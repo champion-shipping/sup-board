@@ -110,36 +110,51 @@
     <main>
         <!-- Секция "Контакты" -->
         <section id="contact-info" style="padding: 80px 0;">
-            <div class="container">
-                <h1 class="scroll-reveal" style="text-align: center; font-size: clamp(2em, 6vw, 3.5em); margin-bottom: 50px;">Свяжитесь с нами</h1>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
-                    <div class="scroll-reveal">
-                        <h2>Наши контакты</h2>
-                        <ul style="list-style: none; padding: 0;">
-                            <li style="margin-bottom: 20px;">
-                                <strong>📍 Адрес:</strong><br>
-                                Ленинградская область, Гатчинский район, городской посёлок Вырица, на берегу реки Оредеж.
-                            </li>
-                            <li style="margin-bottom: 20px;">
-                                <strong>📞 Телефон:</strong><br>
-                                <a href="tel:+79218867232">+7 (921) 886-72-32</a>
-                            </li>
-                            <li style="margin-bottom: 20px;">
-                                <strong>🕒 Часы работы:</strong><br>
-                                Пн-Пт: 12:00 - 20:00<br>
-                                Сб-Вс: 11:00 - 20:00
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="scroll-reveal">
-                        <h2>Мы на карте</h2>
-                        <div style="position:relative;overflow:hidden; border-radius: 12px;">
-                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9a9e3e3b3a0e6d5a6c5f7d3e6d5f7a2b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
-                        </div>
-                    </div>
-                </div>
+    <div class="container">
+        <h1 class="scroll-reveal" style="text-align: center; font-size: clamp(2em, 6vw, 3.5em); margin-bottom: 50px;">Свяжитесь с нами</h1>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: start;">
+            <div class="scroll-reveal">
+                <h2>Наши контакты</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 20px;">
+                        <strong>📍 Адрес:</strong><br>
+                        Ленинградская область, Гатчинский район, городской посёлок Вырица, на берегу реки Оредеж.
+                    </li>
+                    <li style="margin-bottom: 20px;">
+                        <strong>📞 Телефон:</strong><br>
+                        <a href="tel:+79218867232">+7 (921) 886-72-32</a>
+                    </li>
+                    <li style="margin-bottom: 20px;">
+                        <strong>🕒 Часы работы:</strong><br>
+                        Пн-Пт: 12:00 - 20:00<br>
+                        Сб-Вс: 11:00 - 20:00
+                    </li>
+                </ul>
             </div>
-        </section>
+            <div class="scroll-reveal">
+                <h2>Мы на карте</h2>
+                
+                <!-- ОБНОВЛЕННЫЙ БЛОК КАРТЫ -->
+                <div style="position:relative; overflow:hidden; border-radius: 12px;">
+                    <a href="https://yandex.ru/maps/org/sup_station/121043322432/?utm_source=widget&utm_medium=mapframe" 
+                       style="color:#eee;font-size:12px;position:absolute;top:0px;">Sup_station</a>
+                    <a href="https://yandex.ru/maps/org/sup_station/121043322432/?utm_source=widget&utm_medium=mapframe"
+                       style="color:#eee;font-size:12px;position:absolute;top:14px;">Лодочная станция Sup_station</a>
+                    <iframe 
+                        src="https://yandex.ru/map-widget/v1/-/CLa4IQ0P" 
+                        width="100%" 
+                        height="400" 
+                        frameborder="1" 
+                        allowfullscreen="true" 
+                        style="position:relative; border:0;">
+                    </iframe>
+                </div>
+                <!-- КОНЕЦ ОБНОВЛЕННОГО БЛОКА -->
+
+            </div>
+        </div>
+    </div>
+</section>
     </main>
     
     <div id="footer-placeholder"></div>
